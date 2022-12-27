@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+* {
+    font-family: 'Martian Mono', monospace;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #230f2b;
+}
+
+button {
+  border: 1px solid #230f2b;
+  border-radius: 5px;
+  background-color: #82b3ae;
+  color:#230f2b;
+  text-align: center;
+  padding: 5px;
+}
+#list{
+    background-color: #bce3c5;
+    border: 2px solid#000000;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 10%;
+}
+#list h1{
+    
+    text-align: center;
+    color:#230f2b ;
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color:#230f2b;
+  
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+p{
+    text-align: center;
+   
+}
+footer{
+    color: whitesmoke;
+    margin-top: 60vh;
+}
